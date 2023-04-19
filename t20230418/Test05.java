@@ -14,8 +14,8 @@ public class Test05 {
 		System.out.print("단수는?: ");
 		int n = stdIn.nextInt();
 		
-		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <= n-i; j++)
+		for (int i = 1; i <= n; i++) { //i=1, 조건: i는 입력값 이하, i 1 증가 / i=2
+			for (int j = 1; j <= n-i; j++) //j=1, j는 n-i이하, j++ // j <= n-i <- 조건 충족하면 반복
 				System.out.print(' ');
 			for (int j = 1; j <= 2*i-1; j++)
 				System.out.print('*');
@@ -26,7 +26,3 @@ public class Test05 {
 	}
 
 }
-
-
-// 입력 > 텍스트 출력 > n값 저장
-// for1 (i=1; i<=n; i++) / 공백 출력 for2 (j=i; j=)
