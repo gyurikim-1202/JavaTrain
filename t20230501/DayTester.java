@@ -34,12 +34,11 @@ public class DayTester {
 		System.out.println("d4 = " + d4);
 		
 		Day[] a = new Day[3];  //요소 수 3의 Day형 배열
-		for (int i = 0; i < a.length; i++) {
+		for (int i = 0; i < a.length; i++)
 			a[i] = new Day();  //모든 요소를 1년 1월 1일로 설정
 			
-		for (int i = 0; i < a.length; i++) {
+		for (int i = 0; i < a.length; i++)
 			System.out.println("a[" + i + "] = " + a[i]);
-		}
-		}
+		
 	}
 }

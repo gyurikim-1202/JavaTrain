@@ -1,4 +1,7 @@
 package t20230501;
+
+import t20230503.Account;
+
 //은행 계좌 클래스(ver.2) 사용 예(방법1)
 class AccountTester1 {
 	public static void main(String[] args) {

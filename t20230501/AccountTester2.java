@@ -2,6 +2,8 @@ package t20230501;
 
 import java.util.Scanner;
 
+import t20230503.Account;
+
 //은행 계좌 클래스(ver.2) 사용 예(방법2)
 public class AccountTester2 {
 
