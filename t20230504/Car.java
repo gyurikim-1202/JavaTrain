@@ -1,12 +1,14 @@
 package t20230504;
 
+import t20230502.Day;
+
 public class Car {
 	private String name;  //이름
 	private int width;  //폭
 	private int height;  //높이
 	private int length;  //길이
 	private double x;  //현재 위치의 x 좌표
-	private double t;  //현재 위치의 y 좌표
+	private double y;  //현재 위치의 y 좌표
 	private double fuel;  //남은 연료
 	private Day purchaseDay;  //구입일
 	
@@ -19,7 +21,7 @@ public class Car {
 	}
 	
 	public double getX() { return x; }
-	public double getY { return y; }
+	public double getY() { return y; }
 	public double getFuel() { return fuel; }
 	public Day getPurchaseDay() {
 		return new Day(purchaseDay);
